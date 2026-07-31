@@ -1,9 +1,12 @@
-## Setup & Dependency Challenges
+## Key Takeaways & What I Learned
 
-> During tutorials, had problems with the suggested versions of numpy and similar libraries being outdated compared to the current versions, requiring a lot of time to figure out which imports worked and finding alternative versions for those that didn’t.
+Through this project, I gained hands-on experience in gravitational wave astrophysics and signal processing:
+* **Digital Signal Processing:** Learned how to apply bandpass ($30\text{--}400\text{ Hz}$) and notch filtering ($60\text{ Hz}$) to isolate subtle signals buried under seismic noise and power line interference.
+* **Time-Frequency Analysis:** Understood why standard time-domain plots aren't always enough and how **Q-transforms** dynamically map frequency evolution over time to expose chirp signatures.
+* **Multi-Detector Verification:** Saw firsthand how cross-referencing strain data across independent sites (LIGO Hanford and LIGO Livingston) validates real cosmic events vs. localized instrumental glitches.
+* **Python Environment Troubleshooting:** Resolved modern Python 3.12 library dependency and version mismatch issues when working with legacy open-data workshop tutorials.
 
 ---
-
 ## Project Overview
 
 This project examines the first occurrence of a recorded gravitational wave from a black hole merger from the LIGO Hanford and LIGO Livingston observatories on September 14, 2015. 
